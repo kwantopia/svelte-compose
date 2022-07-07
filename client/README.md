@@ -2,32 +2,18 @@
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Setting Up
+## Creating a project
 
-Followed ['docker-compose svelte'](https://jenyus.web.app/blog/2021-05-30-setting-up-a-development-environment-for-sveltekit-with-docker-and-compose) to create dockerized skeleton app that hot reloads with Vite HMR.
+If you're seeing this, you've probably already done this step. Congrats!
 
-Created a new client app
-```
-$ npm create svelte client
-```
+```bash
+# create a new project in the current directory
+npm init svelte
 
-Create package-lock.json
-```
-$ cd client
-$ npm i --package-lock-only
+# create a new project in my-app
+npm init svelte my-app
 ```
 
-Build
-```
-# need to be on project root since docker-compose.dev.yml is in project root
-$ cd ..  
-$ docker-compose -f docker-compose.dev.yml up --build
-```
-
-Run
-```
-$ docker-compose -f docker-compose.dev.yml up --build 
-```
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:

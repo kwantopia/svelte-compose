@@ -15,12 +15,12 @@
 </script>
 
 <svelte:head>
-	<title>Todos Sample</title>
+	<title>Todos</title>
 	<meta name="description" content="A todo list app" />
 </svelte:head>
 
 <div class="todos">
-	<h1>Todos for Today</h1>
+	<h1>Todos</h1>
 
 	<form
 		class="new"
