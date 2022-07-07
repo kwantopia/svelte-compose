@@ -4,14 +4,6 @@
 
 <script lang="ts">
 	import Counter from '$lib/Counter.svelte';
-	import App from '$lib/App.svelte';
-
-	const app = new App({
-		target: document.body,
-		props: {
-			answer: 42
-		}
-	});
 </script>
 
 <svelte:head>
@@ -36,8 +28,6 @@
 	</h2>
 
 	<Counter />
-
-	<App />
 </section>
 
 <style>
