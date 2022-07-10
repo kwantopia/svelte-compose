@@ -30,3 +30,6 @@ $ docker-compose -f docker-compose.dev.yml up --build
 ```
 $ docker-compose -f docker-compose.dev.yml up --build 
 ```
+
+## References
+* A library for managing complex stores, shows a concept of how it can be done: https://github.com/PixievoltNo1/svelte-writable-derived#making-an-object-store-from-several-single-value-stores
